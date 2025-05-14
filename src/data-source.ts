@@ -18,4 +18,5 @@ export const AppDataSource = new DataSource({
   synchronize: true,
   logging: false,
   entities: [User, Profile, Post, Tag],
+  migrations: ['src/migrations/*.ts'],
 });
