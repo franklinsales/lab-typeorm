@@ -9,7 +9,7 @@
     "migration:create": "npx typeorm migration:create src/migrations/DefaultMigration -d src/data-source.ts",
     "migration:run": "npx typeorm migration:run -d src/data-source.ts",
     "migration:revert": "npx typeorm migration:revert -d src/data-source.ts",
-    "seed": "ts-node src/seed.ts",
+    "seed": "ts-node src/seeds.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
